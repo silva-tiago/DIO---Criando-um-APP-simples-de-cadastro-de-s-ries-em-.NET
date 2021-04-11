@@ -59,7 +59,7 @@ namespace DIO.Series
             {
                 var excluido = serie.retornaExcluido();
 
-                Console.WriteLine("#ID {0}: - {1} {2}", serie.retornaId(), serie.retornaTitulo(), (excluido ? "Excluído" : ""));
+                Console.WriteLine("#ID {0}: - {1} {2}", serie.retornaId(), serie.retornaTitulo(), (excluido ? "*Excluído**" : ""));
             }
         }//fim ListarSerie
 
